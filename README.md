@@ -3,9 +3,9 @@
 **Penugasan UAS Cloud Computing - PTIK - 2021**
 
 **Anggota Kelompok :**
-1. Achmad
-2. Bagas
-3. Reza
+1. Achmad Wahyu Nur Risky (K3521002)
+2. Bagas Dwiantoro (K3521014)
+3. Reza Muhammad Thalib (K3521062)
 
 ## Deskripsi Proyek
 
