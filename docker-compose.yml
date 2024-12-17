@@ -1,0 +1,24 @@
+services:
+  orchestrator:
+    build: ./orchestrator
+    ports:
+      - "5000:5000"
+    depends_on:
+      - temperature_service
+      - length_service
+      - weight_service
+
+  temperature_service:
+    build: ./temperature_service
+    ports:
+      - "5001:5001"
+
+  length_service:
+    build: ./length_service
+    ports:
+      - "5002:5002"
+  
+  weight_service:
+    build: ./weight_service
+    ports:
+      - "5003:5003"
